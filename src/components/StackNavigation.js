@@ -1,13 +1,11 @@
 /* eslint-disable prettier/prettier */
-import React from 'react';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import AccessRegister from '../screens/AccessRegister';
-import Signin from '../screens/Signin';
-import Login from '../screens/Login';
+import React from "react"
+import { createNativeStackNavigator } from "@react-navigation/native-stack"
+import AccessRegister from "../screens/AccessRegister"
+import Signin from "../screens/Signin"
+import Login from "../screens/Login"
 
-
-
-const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator()
 
 const MainStack = () => {
   return (
@@ -25,10 +23,10 @@ const MainStack = () => {
       <Stack.Screen
         name="Login"
         component={Login}
-        options={{ headerShown: false}}
+        options={{ headerShown: false }}
       />
     </Stack.Navigator>
-  );
-};
+  )
+}
 
-export { MainStack};
+export { MainStack }

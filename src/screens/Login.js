@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 
-import React from 'react';
+import React from "react"
 import {
   View,
   StyleSheet,
@@ -9,16 +9,15 @@ import {
   Image,
   TextInput,
   TouchableOpacity,
-} from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
-import pic1 from '../assets/pic1.png';
-
+} from "react-native"
+import LinearGradient from "react-native-linear-gradient"
+import pic1 from "../assets/pic1.png"
 
 // import Animated from "react-native-reanimated";
 // import { FadeInUp, FadeOut } from "react-native-reanimated";
 
-const screenWidth = Dimensions.get('window').width;
-const screenHeight = Dimensions.get('window').height;
+const screenWidth = Dimensions.get("window").width
+const screenHeight = Dimensions.get("window").height
 
 const Login = ({ navigation }) => {
   return (
@@ -67,91 +66,90 @@ const Login = ({ navigation }) => {
         </TouchableOpacity>
       </LinearGradient>
     </View>
-  );
-};
+  )
+}
 
-export default Login;
+export default Login
 
 const styles = StyleSheet.create({
-    container: {
+  container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
   isContainer: {
     flex: 1,
     width: screenWidth,
-    alignItems: 'center',
+    alignItems: "center",
   },
   image: {
     marginTop: 100,
     height: 220,
     width: 220,
-
   },
   input: {
     marginTop: 50,
-    fontFamily: 'raleway',
-    color: 'black',
-    fontWeight: '100',
+    fontFamily: "raleway",
+    color: "black",
+    fontWeight: "100",
     width: 300,
     height: 50,
     borderBottomWidth: 2,
-    borderBottomColor: '#A9A9A9',
+    borderBottomColor: "#A9A9A9",
     fontSize: 20,
-    padding : 10,
+    padding: 10,
   },
   input2: {
     marginTop: 30,
-    fontFamily: 'raleway',
-    color: 'black',
-    fontWeight: '100',
+    fontFamily: "raleway",
+    color: "black",
+    fontWeight: "100",
     width: 300,
     height: 50,
     borderBottomWidth: 2,
-    borderBottomColor: '#A9A9A9',
+    borderBottomColor: "#A9A9A9",
     fontSize: 20,
   },
   button: {
     height: 50,
     width: 300,
     borderRadius: 15,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     marginTop: 30,
   },
   buttonText: {
-    fontFamily: 'raleway_bold',
-    fontWeight: 'bold',
-    color: 'white',
-    fontSize : 20,
+    fontFamily: "raleway_bold",
+    fontWeight: "bold",
+    color: "white",
+    fontSize: 20,
   },
   text1: {
     height: 17,
     width: 115,
-    color: '#384CFF',
-    fontFamily: 'raleway_bold',
-    fontWeight: 'bold',
+    color: "#384CFF",
+    fontFamily: "raleway_bold",
+    fontWeight: "bold",
     marginTop: 20,
   },
   text2: {
     height: 20,
     width: 310,
-    color: '#A9A9A9',
-    fontFamily: 'raleway_bold',
-    fontWeight: 'bold',
+    color: "#A9A9A9",
+    fontFamily: "raleway_bold",
+    fontWeight: "bold",
     marginTop: 20,
   },
   button2: {
     height: 32,
     width: 200,
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderColor: '#384CFF',
+    justifyContent: "center",
+    alignItems: "center",
+    borderColor: "#384CFF",
     borderRadius: 12,
     borderWidth: 2,
     marginTop: 40,
-    marginBottom : 20,
+    marginBottom: 20,
   },
-});
+})
