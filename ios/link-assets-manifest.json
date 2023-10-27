@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/Fonts/Raleway-Regular.ttf",
+      "sha1": "5a37f51d6a22ae86cc64c9085b5f64b180ad2609"
+    },
+    {
+      "path": "src/assets/Fonts/Raleway-SemiBold.ttf",
+      "sha1": "a98dee96e1e93fbf4ff1c50f6e8834e49f17f72f"
+    },
+    {
+      "path": "src/assets/pic1.png",
+      "sha1": "90a1b19217b7d90c4c8de5202c7c53ead798d5af"
+    },
+    {
+      "path": "src/assets/pic2.png",
+      "sha1": "4b7a99aea002f4ccf58ca6e14b6647c5ee053d96"
+    }
+  ]
+}
